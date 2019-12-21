@@ -10,4 +10,3 @@ $('.links').click(function() {
   $('.menu').toggleClass('hidden');
 });
 
-$('#scottLogo').css({marginTop: '-=198px'});

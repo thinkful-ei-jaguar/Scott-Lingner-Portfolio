@@ -86,7 +86,7 @@ footer {
   align-items: center;
 }
 
-#projectContainer {
+#projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ footer {
   color: rgb(80, 80, 80);
 }
 
-#projectContainer img {
+#projects img {
   max-width: 60%;
 }
 
@@ -124,7 +124,7 @@ footer {
 
 
 #scottLogo {
-  height: 50%;
+  height: 70%;
   width: 80%;
 }
 
