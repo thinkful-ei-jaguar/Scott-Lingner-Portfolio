@@ -11,10 +11,14 @@ a { color:rgb(46, 46, 46) }
 a:hover { 
   text-decoration: none; 
   color:rgb(242, 176, 161);
-  text-shadow: 0 0 1px #e48b57;  }
-/* a:hover { text-decoration: none; color:rgb(218, 109, 169); }
-a:focus { text-decoration: none; color:rgb(233, 186, 129); }
-a:hover, a:active { text-decoration: none; color:rgb(146, 216, 180) } */ */
+ }
+  a:focus { 
+    text-decoration: none;
+    color:rgb(233, 186, 129); }
+  a:active { 
+    text-decoration: none; 
+    color:rgb(146, 216, 180) 
+  } 
 
 
 .navLinks {
