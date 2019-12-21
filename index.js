@@ -16,6 +16,13 @@ $('.workScroll').click(function() {
   'slow');
 });
 
+$('.menuPage').click(function() {
+  $('html,body').animate({
+    scrollTop: $('#Work').offset().top},
+  'slow');
+});
+
+
 $('.contactScroll').click(function() {
   $('html,body').animate({
     scrollTop: $('#contact').offset().top},
