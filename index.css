@@ -86,7 +86,7 @@ footer {
   align-items: center;
 }
 
-#projects {
+#Work {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +96,7 @@ footer {
   color: rgb(80, 80, 80);
 }
 
-#projects img {
+#Work img {
   max-width: 60%;
 }
 
@@ -110,7 +110,7 @@ footer {
   height: auto; 
 }
 
-/* .projects ul li{
+/* .Work ul li{
   background: rgb(203, 203, 203);
   padding: 10px;
   box-sizing: border-box;
