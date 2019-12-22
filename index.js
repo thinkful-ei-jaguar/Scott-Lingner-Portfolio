@@ -2,6 +2,21 @@ $('.hamburger').click(function(){
   $('.menu').toggleClass('hidden');
 });
 
+$('.hamburger').on('keydown', function(event) {
+  let code = event.keyCode;
+  if(code === 13) {
+    $('.menu').toggleClass('hidden');
+  }
+});
+
+$('.close').on('keydown', function(event) {
+  let code = event.keyCode;
+  if(code === 13) {
+    $('.menu').toggleClass('hidden');
+  }
+});
+
+
 $('.close').click(function(){
   $('.menu').toggleClass('hidden');
 });
@@ -27,3 +42,4 @@ $('.contactScroll').click(function() {
     scrollTop: $('#contact').offset().top},
   'slow');
 });
+
