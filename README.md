@@ -35,5 +35,8 @@ compelling screenshots
 * a link to GitHub repo
 * a link to the live, working app
 
-Repo: https://github.com/thinkful-ei-jaguar/Scott-Lingner-Portfolio
-GH Pages: https://thinkful-ei-jaguar.github.io/Scott-Lingner-Portfolio/
+### Repo: 
+https://github.com/thinkful-ei-jaguar/Scott-Lingner-Portfolio
+
+### GH Pages: 
+https://thinkful-ei-jaguar.github.io/Scott-Lingner-Portfolio/
