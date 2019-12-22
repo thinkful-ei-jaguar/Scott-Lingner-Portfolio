@@ -1,4 +1,4 @@
-# Scott-Lingner-Portfolio
+# Scott Lingner's Portfolio 🚀
 
 ## Overall, the site:
 
