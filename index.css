@@ -1,4 +1,23 @@
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 *{
   font-family: 'Raleway', sans-serif;
@@ -205,13 +224,7 @@ a {
 .hamburger {
   width: 28px;
   height: 42px;
-  /* border: 1px solid #eeeeef;
-  border-radius: 2px;
-  box-shadow: 0 0 2px #eeeeef; */
   padding: 10px 10px;
-  /* Hamburger menu is a bit out of place in the HTML flow, but it's always
-   * going to live top-right, so we can position absolutely and not worry
-   * too much */
   position: absolute;
   top: 8px;
   right: 8px;
@@ -232,17 +245,12 @@ right: 0;
 width: 60vw;
 height: 22vh;
 opacity: 1;
-/*   background-color: #f2f2f2; */
 background-color: rgba(242,242,242,0.85);
 z-index: 1;
-/*   display: block; */
-/*  to use transition we can't use display  */
 transition: opacity 0.5s ease-in-out;
 }
 
 .hidden {
-/*   display: none; */
-/*  to use transition we can't use display  */
 transition: opacity 0.5s ease-in-out;
 opacity: 0;
 }
@@ -255,14 +263,8 @@ font-size: 4em;
 cursor: pointer;
 display: flex;
 color: rgb(240, 113, 85);
-/* if you don't want a border   */
-/*  switch off all below  */
-/* width: 2.2em; */
-/* height: 2.2em; */
 line-height: 10px;
-/* border: 1px solid #000; */
 padding: 1px;
-/* border-radius: 100%; */
 background-color:  rgba(242,242,242);
 }
 
@@ -279,9 +281,6 @@ border-radius: 5px;
 }
 
 
-
-
-
 /*******************************/
 
 
@@ -295,7 +294,6 @@ border-radius: 5px;
 @media (min-width: 576px) {
   .hamburger {
       /* Only display the hamburger on mobile devices */
-    /*  currently switched off */
       display: none;
   }
 
