@@ -81,7 +81,6 @@ footer {
   display: flex;
   justify-content: space-around;
   font-size: 40px;
- 
 }
 
 .home{
@@ -282,6 +281,7 @@ border-radius: 5px;
     height: auto;
     width: 50%;
     margin-bottom: 50px;
+    display: flex;
   }
 
   h3{
